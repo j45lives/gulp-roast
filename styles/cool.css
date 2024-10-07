@@ -129,6 +129,9 @@ p {
     width: 30%;
     margin: 10px;
     flex: 1;
+    flex-grow: 1;
+    flex-grow: 1;
+    flex-grow: inherit;
     flex-basis: auto;
     /* Ensures all boxes are of equal width */
     display: flex;
