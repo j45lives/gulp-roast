@@ -129,11 +129,12 @@ p {
     width: 30%;
     margin: 10px;
     flex: 1;
+    flex-basis: auto;
     /* Ensures all boxes are of equal width */
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 110px;
+    height: 140px;
     /* Set your desired height */
     overflow: hidden;
     border-radius: 6px;
@@ -141,12 +142,12 @@ p {
 }
 
 .image-box img {
-    flex: 1;
+    flex-grow: 1;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     overflow: hidden;
-    /* height: 200px; */
+    /* height: 300px; */
 }
 
 
