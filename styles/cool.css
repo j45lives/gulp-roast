@@ -1,0 +1,159 @@
+body {
+    font-family: "Lato", 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background-color: #082B59;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 50px;
+    width: auto;
+    margin-right: 20px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+ul {
+    text-decoration: none;
+
+}
+
+.navbar {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #082B59;
+    overflow: hidden;
+}
+
+
+.navbar .logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-grow: 1;
+    float: left;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.navbar a {
+    float: right;
+    display: flex;
+    color: white;
+    border-radius: 6px;
+    text-align: center;
+    padding: 8px 18px;
+    text-decoration: none;
+
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: #082B59;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+}
+
+.container {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    text-align: center;
+}
+
+h2 {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    color: #2c3e50;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    */ padding: 10px;
+    */
+}
+
+.image-box {
+    width: 30%;
+    margin: 10px;
+    flex: 1;
+    /* Ensures all boxes are of equal width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110px;
+    /* Set your desired height */
+    overflow: hidden;
+    border-radius: 6px;
+
+}
+
+.image-box img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* height: 200px; */
+}
+
+
+*/ @media (max-width: 768px) {
+    .image-box {
+        align-items: center;
+    }
+
+    */
+}
